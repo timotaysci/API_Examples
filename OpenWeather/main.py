@@ -1,7 +1,7 @@
 import requests
 import json
 import config #see below
-
+#
 
 def get_weather(api_key, city):
     url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}"
